@@ -1,0 +1,7 @@
+.claude/
+.vscode/
+Recursos/
+*.DS_Store
+Thumbs.db
+
+.vercel
