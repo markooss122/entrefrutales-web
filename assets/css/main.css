@@ -801,6 +801,19 @@ p {
   backdrop-filter: blur(18px);
 }
 
+.casa-media-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.calidad-badge {
+  width: 100%;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  object-fit: contain;
+}
+
 .image-frame {
   overflow: hidden;
   border-radius: var(--radius-xl);
