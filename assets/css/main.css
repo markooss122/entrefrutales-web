@@ -848,15 +848,7 @@ p {
 
 .calidad-badge {
   width: 100%;
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-lg);
   object-fit: contain;
-  animation: badgePulse 3s ease-in-out infinite;
-}
-
-@keyframes badgePulse {
-  0%, 100% { box-shadow: var(--shadow-lg); }
-  50%      { box-shadow: 0 0 32px rgba(200, 151, 42, 0.45), var(--shadow-lg); }
 }
 
 .image-frame {
