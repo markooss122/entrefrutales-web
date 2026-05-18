@@ -29,7 +29,7 @@
       "minstay_label": "Estancia mínima",
       "min_nights": "2 noches",
       "extra_label": "Suplemento",
-      "extra_value": "Cama extra 25€/noche",
+      "extra_value": "Cama extra 29€/noche",
       "contact_label": "Contacto"
     },
     "hero_facts": {
@@ -57,7 +57,7 @@
     },
     "rooms": {
       "heading": "Seis habitaciones de una casa completa, no de una reserva por separado.",
-      "note_full": "La casa se alquila completa, no por habitaciones. Todas disponen de cuarto de baño completo, secador, calefacción, aire acondicionado y TV. Hay camas supletorias por 25€/noche y cunas gratuitas.",
+      "note_full": "La casa se alquila completa, no por habitaciones. Todas disponen de cuarto de baño completo, secador, calefacción, aire acondicionado y TV. Hay camas supletorias por 29€/noche y cunas gratuitas.",
       "tag_suite": "Suite",
       "tag_double": "Habitación doble",
       "meta_lounge": "Salita",
@@ -145,7 +145,7 @@
       "p3_title": "Más de 12 personas",
       "p3_price": "A medida",
       "p3_f1": "Consultar disponibilidad y precio",
-      "p3_f2": "Camas supletorias a 25€/noche",
+      "p3_f2": "Camas supletorias a 29€/noche",
       "p3_f3": "Cunas gratuitas bajo petición",
       "p3_cta": "Enviar email",
       "full_house": {
