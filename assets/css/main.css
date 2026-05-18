@@ -807,11 +807,56 @@ p {
   gap: 20px;
 }
 
+.calidad-title-wrap {
+  text-align: center;
+}
+
+.calidad-award-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.calidad-line {
+  flex: 1;
+  height: 1.5px;
+  background: linear-gradient(90deg, transparent, #c8972a);
+}
+
+.calidad-line--right {
+  background: linear-gradient(90deg, #c8972a, transparent);
+}
+
+.calidad-text {
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #9a5c00 0%, #f5d078 30%, #ffeaa0 50%, #f5d078 70%, #9a5c00 100%);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: goldShimmer 2.2s linear infinite;
+}
+
+@keyframes goldShimmer {
+  0%   { background-position: 300% center; }
+  100% { background-position: 0%   center; }
+}
+
 .calidad-badge {
   width: 100%;
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
   object-fit: contain;
+  animation: badgePulse 3s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+  0%, 100% { box-shadow: var(--shadow-lg); }
+  50%      { box-shadow: 0 0 32px rgba(200, 151, 42, 0.45), var(--shadow-lg); }
 }
 
 .image-frame {
