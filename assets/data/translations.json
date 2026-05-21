@@ -11,6 +11,7 @@
       "experiencia": "Fotos/Vídeos",
       "opiniones": "Opiniones",
       "reserva": "Reserva",
+      "entorno": "El entorno",
       "contacto": "Contacto"
     },
     "hero": {
@@ -178,6 +179,31 @@
       "access_label": "Acceso:",
       "access": "Bien señalizado desde la autovía A-2"
     },
+    "entorno": {
+      "kicker": "El entorno",
+      "title": "Qué hacer en los alrededores",
+      "lead": "Si te alojas en Entrefrutales puedes disfrutar de naturaleza, deporte, cultura y gastronomía a pocos kilómetros de la casa.",
+      "act_title": "Actividades",
+      "act_1": "Senderismo siguiendo caminos que conducen a las ermitas de San Juan y San Antón.",
+      "act_2": "Otras rutas y la posibilidad de coger rebollones en los pinares del municipio, si el otoño es lluvioso y con buena temperatura.",
+      "act_3": "Práctica de golf a tan sólo 10 km, en el campo de Calatayud (Augusta Golf Calatayud).",
+      "act_4": "Piragüismo en el pantano de la Tranquera, a 7 km de La Vilueña.",
+      "act_5": "Balneoterapia con circuitos termales de aguas curativas en Alhama de Aragón, Jaraba y Paracuellos de Jiloca.",
+      "act_6": "Ruta del Mudéjar en Calatayud y su entorno, además de otras de carácter artístico, gastronómico y enológico.",
+      "act_7": "Adquisición de fruta de temporada a precio de cosechero. Desde finales de mayo hasta finales de julio se cosecha la cereza, con variedades muy distintas y una calidad y sabor excelentes.",
+      "act_8": "Escalada en Jaraba y Embid de la Ribera, a unos 15 km.",
+      "poi_title": "Lugares de interés",
+      "poi_1": "El Monasterio de Piedra (15 km): visita obligada al monumento cárstico cincelado por las aguas del Río Piedra. Conviene sacar las entradas por Internet con antelación (más baratas y sin colas). El parque, dentro de la red de Espacios Protegidos de Aragón, esconde lagos, grutas y cascadas como el Lago del Espejo o la imponente Cola del Caballo, de 50 m.",
+      "poi_2": "Ruta del Mudéjar en Calatayud y su comarca.",
+      "poi_3": "Ruta del vino en la Comarca de Calatayud: <a href=\"https://rutadelvinocalatayud.com\" target=\"_blank\" rel=\"noopener\">rutadelvinocalatayud.com</a>",
+      "poi_4": "Yacimiento de Bílbilis en Calatayud (12 km) y otros monumentos del arte mudéjar más puro.",
+      "poi_5": "Pantano de La Tranquera, a 12 km.",
+      "poi_6": "Laguna de Gallocanta (40 km): observación de las grullas migratorias entre la segunda quincena de noviembre y la primera de diciembre.",
+      "poi_7": "Daroca y el parque temático Dinópolis (Teruel). Albarracín Aventura con tirolinas, paintball y tiro con arco.",
+      "poi_8": "Zaragoza (100 km), con la Basílica del Pilar y La Seo.",
+      "poi_9": "Tarazona, El Moncayo, Borja y el Monasterio de Veruela (90 km).",
+      "poi_10": "Soria y la Laguna Negra (100 km)."
+    },
     "contact_info": {
       "kicker": "Datos de contacto",
       "title": "Información y reservas",
@@ -216,6 +242,7 @@
       "experiencia": "Photos/Videos",
       "opiniones": "Reviews",
       "reserva": "Booking",
+      "entorno": "Surroundings",
       "contacto": "Contact"
     },
     "hero": {
@@ -382,6 +409,31 @@
       "surroundings": "Piedra Monastery 15 km · Calatayud 12 km",
       "access_label": "Access:",
       "access": "Well signposted from the A-2 highway"
+    },
+    "entorno": {
+      "kicker": "The surroundings",
+      "title": "Things to do nearby",
+      "lead": "When you stay at Entrefrutales you can enjoy nature, sport, culture and gastronomy just a few kilometres from the house.",
+      "act_title": "Activities",
+      "act_1": "Hiking along the trails leading to the hermitages of San Juan and San Antón.",
+      "act_2": "Other routes and the chance to pick wild mushrooms (rebollones) in the local pine forests, when autumn is rainy and mild.",
+      "act_3": "Golf just 10 km away, at the Calatayud course (Augusta Golf Calatayud).",
+      "act_4": "Canoeing on the La Tranquera reservoir, 7 km from La Vilueña.",
+      "act_5": "Spa therapy with thermal circuits of healing waters in Alhama de Aragón, Jaraba and Paracuellos de Jiloca.",
+      "act_6": "The Mudéjar Route in Calatayud and its surroundings, plus many other artistic, gastronomic and wine routes.",
+      "act_7": "Buying seasonal fruit at grower's prices. Cherries are harvested from late May to late July, with many varieties of excellent quality and flavour.",
+      "act_8": "Climbing in Jaraba and Embid de la Ribera, about 15 km away.",
+      "poi_title": "Places of interest",
+      "poi_1": "The Stone Monastery (Monasterio de Piedra, 15 km): a must-see karst monument carved by the waters of the Piedra River. It's best to buy tickets online in advance (cheaper and no queues). The park, part of Aragón's network of Protected Spaces, hides lakes, grottoes and waterfalls such as the Mirror Lake or the impressive 50 m Cola del Caballo.",
+      "poi_2": "The Mudéjar Route in Calatayud and its region.",
+      "poi_3": "Wine Route in the Calatayud region: <a href=\"https://rutadelvinocalatayud.com\" target=\"_blank\" rel=\"noopener\">rutadelvinocalatayud.com</a>",
+      "poi_4": "The Bílbilis archaeological site in Calatayud (12 km) and other monuments of the purest Mudéjar art.",
+      "poi_5": "The La Tranquera reservoir, 12 km away.",
+      "poi_6": "Gallocanta Lagoon (40 km): watch the migrating cranes between mid-November and early December.",
+      "poi_7": "Daroca and the Dinópolis theme park (Teruel). Albarracín Aventura with zip lines, paintball and archery.",
+      "poi_8": "Zaragoza (100 km), with the Basílica del Pilar and La Seo.",
+      "poi_9": "Tarazona, El Moncayo, Borja and the Monastery of Veruela (90 km).",
+      "poi_10": "Soria and the Laguna Negra (100 km)."
     },
     "contact_info": {
       "kicker": "Contact information",

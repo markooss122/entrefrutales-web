@@ -1123,6 +1123,66 @@ p {
   stroke-linejoin: round;
 }
 
+/* ── Entorno / Qué hacer ── */
+.entorno-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 44px;
+}
+
+.entorno-card {
+  padding: 36px;
+}
+
+.entorno-head {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.entorno-head h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.entorno-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.entorno-list li {
+  position: relative;
+  padding-left: 24px;
+  line-height: 1.7;
+  color: var(--muted);
+  font-size: 0.97rem;
+}
+
+.entorno-list li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 0.62em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+
+.entorno-list a {
+  color: var(--gold-2);
+  font-weight: 600;
+  border-bottom: 1px solid rgba(184, 131, 61, 0.4);
+}
+
+.entorno-list a:hover { border-bottom-color: var(--gold-2); }
+
 /* ── Gallery filters ── */
 .gallery-filters {
   display: flex;
@@ -1965,7 +2025,7 @@ p {
   .hero-facts li:nth-child(even) { border-right: 0; }
   .hero-facts li:nth-last-child(-n+2) { border-bottom: 0; }
 
-  .rooms-grid, .features-grid, .gallery-grid, .testimonials-grid, .pricing-grid { grid-template-columns: 1fr; }
+  .rooms-grid, .features-grid, .gallery-grid, .testimonials-grid, .pricing-grid, .entorno-grid { grid-template-columns: 1fr; }
   .price-card.featured { transform: scale(1); }
   .section { padding: 86px 0; }
   .panel, .location-card, .contact-card { padding: 22px; }
