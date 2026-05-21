@@ -352,3 +352,60 @@ function rejectCookies() {
   localStorage.setItem('cookie-consent', 'rejected');
   document.getElementById('cookie-banner').classList.add('hidden');
 }
+
+// ── Hero title: animación letra a letra ──
+// El texto del H1 lo escribe i18n (textContent), también al cambiar de idioma.
+// Observamos el H1 y, cada vez que i18n reescribe el texto, lo partimos en
+// letras para relanzar la animación con el idioma correcto.
+(function heroTitleReveal() {
+  const h1 = document.querySelector('#hero h1[data-i18n="hero.title"]');
+  if (!h1) return;
+
+  let lastText = '';
+  let observer;
+
+  function buildChars(text) {
+    const frag = document.createDocumentFragment();
+    const words = text.split(' ');
+    let charIndex = 0;
+    words.forEach((word, wi) => {
+      const wordEl = document.createElement('span');
+      wordEl.className = 'hero-word';
+      for (const ch of word) {
+        const charEl = document.createElement('span');
+        charEl.className = 'hero-char';
+        charEl.textContent = ch;
+        charEl.style.animationDelay = (charIndex * 0.028).toFixed(3) + 's';
+        charIndex++;
+        wordEl.appendChild(charEl);
+      }
+      frag.appendChild(wordEl);
+      if (wi < words.length - 1) frag.appendChild(document.createTextNode(' '));
+    });
+    return frag;
+  }
+
+  function render() {
+    const text = h1.textContent.replace(/\s+/g, ' ').trim();
+    if (!text || text === lastText) { h1.classList.remove('is-hiding'); return; }
+    lastText = text;
+    const frag = buildChars(text);
+    observer.disconnect();
+    h1.textContent = '';
+    h1.classList.add('is-split');
+    h1.appendChild(frag);
+    h1.classList.remove('is-hiding');
+    observer.observe(h1, { childList: true, subtree: true, characterData: true });
+  }
+
+  // Ocultamos el texto crudo hasta que i18n aplique y partamos en letras.
+  h1.classList.add('is-hiding');
+
+  observer = new MutationObserver(() => {
+    if (!h1.querySelector('.hero-char')) { h1.classList.add('is-hiding'); render(); }
+  });
+  observer.observe(h1, { childList: true, subtree: true, characterData: true });
+
+  // Red de seguridad por si i18n falla o ya se aplicó.
+  setTimeout(() => { if (!h1.querySelector('.hero-char')) render(); }, 600);
+})();

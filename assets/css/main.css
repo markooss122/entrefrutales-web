@@ -694,6 +694,30 @@ p {
   color: var(--white);
 }
 
+/* Animación letra a letra del título del hero */
+.hero-copy h1.is-hiding { color: transparent; }
+.hero-copy h1 .hero-word { display: inline-block; }
+.hero-copy h1 .hero-char {
+  display: inline-block;
+  white-space: pre;
+  will-change: transform, opacity, filter;
+}
+.hero-copy h1.is-split .hero-char {
+  opacity: 0;
+  animation: heroCharIn 0.72s cubic-bezier(0.22, 0.7, 0.24, 1) both;
+}
+
+@keyframes heroCharIn {
+  0%   { opacity: 0; transform: translateY(0.5em) scale(0.86) rotate(4deg); filter: blur(8px); }
+  55%  { filter: blur(0); }
+  100% { opacity: 1; transform: none; filter: blur(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-copy h1.is-split .hero-char { animation: none; opacity: 1; }
+  .hero-copy h1.is-hiding { color: var(--white); }
+}
+
 .hero-copy p { color: rgba(255,255,255,0.78); max-width: 54ch; }
 
 .hero-actions {
