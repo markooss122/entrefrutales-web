@@ -705,7 +705,10 @@ p {
 .hero-copy h1.is-split .hero-char {
   opacity: 0;
   animation: heroCharIn 0.72s cubic-bezier(0.22, 0.7, 0.24, 1) both;
+  animation-play-state: paused;
 }
+/* La animación arranca solo cuando el loader ha desaparecido */
+.hero-copy h1.is-playing .hero-char { animation-play-state: running; }
 
 @keyframes heroCharIn {
   0%   { opacity: 0; transform: translateY(0.5em) scale(0.86) rotate(4deg); filter: blur(8px); }

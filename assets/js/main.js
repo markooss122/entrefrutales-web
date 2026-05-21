@@ -37,11 +37,15 @@ function updateThemeIcon(theme) {
 }
 
 // ── Loader ──
+// El título del hero arranca su animación cuando el loader se va (lo define la IIFE de abajo)
+let revealHeroTitle = function () {};
+
 window.addEventListener('load', () => {
   setTimeout(() => {
     loader.classList.add('hidden');
     document.body.classList.remove('loading');
     startHeroCarousel();
+    revealHeroTitle();
   }, 1100);
 });
 
@@ -363,6 +367,13 @@ function rejectCookies() {
 
   let lastText = '';
   let observer;
+  let ready = false; // true cuando el loader ya ha desaparecido
+
+  // El loader llama a esto al ocultarse: marca listo y lanza la animación.
+  revealHeroTitle = function () {
+    ready = true;
+    if (h1.querySelector('.hero-char')) h1.classList.add('is-playing');
+  };
 
   function buildChars(text) {
     const frag = document.createDocumentFragment();
@@ -393,6 +404,7 @@ function rejectCookies() {
     observer.disconnect();
     h1.textContent = '';
     h1.classList.add('is-split');
+    if (ready) h1.classList.add('is-playing');
     h1.appendChild(frag);
     h1.classList.remove('is-hiding');
     observer.observe(h1, { childList: true, subtree: true, characterData: true });
