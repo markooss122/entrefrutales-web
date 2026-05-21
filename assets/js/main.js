@@ -288,6 +288,61 @@ if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
   }
 })();
 
+// ── Room carousels ──
+(function() {
+  document.querySelectorAll('.room-carousel').forEach(carousel => {
+    const track = carousel.querySelector('.carousel-track');
+    const imgs = Array.from(track.querySelectorAll('img'));
+    const dotsContainer = carousel.querySelector('.carousel-dots');
+    let current = 0;
+
+    imgs[0].classList.add('active');
+
+    imgs.forEach((_, i) => {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.addEventListener('click', () => { goTo(i); resetTimer(); });
+      dotsContainer.appendChild(dot);
+    });
+
+    function goTo(n) {
+      imgs[current].classList.remove('active');
+      dotsContainer.querySelectorAll('.dot')[current].classList.remove('active');
+      current = (n + imgs.length) % imgs.length;
+      imgs[current].classList.add('active');
+      dotsContainer.querySelectorAll('.dot')[current].classList.add('active');
+    }
+
+    carousel.querySelector('.prev').addEventListener('click', e => { e.stopPropagation(); goTo(current - 1); resetTimer(); });
+    carousel.querySelector('.next').addEventListener('click', e => { e.stopPropagation(); goTo(current + 1); resetTimer(); });
+
+    let timer = setInterval(() => goTo(current + 1), 4000);
+    function resetTimer() { clearInterval(timer); timer = setInterval(() => goTo(current + 1), 4000); }
+  });
+})();
+
+// ── Gallery filter ──
+(function() {
+  const btns = document.querySelectorAll('.gf-btn');
+  const items = document.querySelectorAll('.gallery-item');
+
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const cat = btn.dataset.cat;
+      items.forEach(item => {
+        if (cat === 'all' || item.dataset.cat === cat) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+})();
+
 function acceptCookies() {
   localStorage.setItem('cookie-consent', 'accepted');
   document.getElementById('cookie-banner').classList.add('hidden');

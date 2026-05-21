@@ -195,7 +195,7 @@ p {
   place-items: center;
   background:
     linear-gradient(135deg, rgba(20, 14, 10, .94), rgba(47, 33, 22, .84)),
-    url("../../Recursos/DJI_20251218_143225_117.jpg") center / cover;
+    url("../img/DJI_20251218_143225_117.jpg") center / cover;
   transition: opacity .7s ease, visibility .7s ease;
 }
 
@@ -420,6 +420,10 @@ p {
   height: 52px;
   width: auto;
   transition: all 0.3s ease;
+  background: #fff;
+  border-radius: 10px;
+  padding: 4px 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .site-header.scrolled .brand-logo { height: 44px; }
@@ -735,7 +739,7 @@ p {
 }
 
 .hero-card li:last-child { border-bottom: 0; padding-bottom: 0; }
-.hero-card strong { color: var(--white); font-weight: 800; }
+.hero-card strong { color: var(--white); font-weight: 800; text-align: right; white-space: nowrap; }
 
 .hero-strip {
   margin-top: 34px;
@@ -801,12 +805,24 @@ p {
   backdrop-filter: blur(18px);
 }
 
-.casa-media-col {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.image-frame {
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  background: #24180f;
+  min-height: 460px;
 }
 
+.image-frame img {
+  width: 100%; height: 100%;
+  min-height: 460px;
+  object-fit: cover;
+  transition: transform 0.9s ease;
+}
+
+.image-frame:hover img { transform: scale(1.04); }
+
+/* ── Reconocimiento de Calidad (badge) ── */
 .calidad-title-wrap {
   text-align: center;
 }
@@ -865,23 +881,6 @@ p {
   color: var(--gold-2);
   font-weight: 700;
 }
-
-.image-frame {
-  overflow: hidden;
-  border-radius: var(--radius-xl);
-  box-shadow: var(--shadow-lg);
-  background: #24180f;
-  min-height: 460px;
-}
-
-.image-frame img {
-  width: 100%; height: 100%;
-  min-height: 460px;
-  object-fit: cover;
-  transition: transform 0.9s ease;
-}
-
-.image-frame:hover img { transform: scale(1.04); }
 
 .panel { padding: 36px; }
 .panel h2, .panel h3 { margin-top: 14px; margin-bottom: 18px; }
@@ -968,6 +967,48 @@ p {
 }
 .room-thumb:hover .room-thumb-hint { opacity: 1; }
 .room-thumb:hover img { transform: scale(1.04); }
+
+/* Room carousel */
+.room-carousel { position: relative; overflow: hidden; height: 260px; }
+.room-carousel .carousel-track { position: relative; width: 100%; height: 100%; }
+.room-carousel .carousel-track img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  transform: scale(1.04);
+  animation: none;
+}
+.room-carousel .carousel-track img.active {
+  opacity: 1;
+  animation: kenburns 6s ease-in-out forwards;
+}
+@keyframes kenburns {
+  from { transform: scale(1.04); }
+  to   { transform: scale(1.0); }
+}
+.carousel-btn {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(42,28,18,0.45); color: #fff;
+  border: none; width: 36px; height: 36px; border-radius: 50%;
+  font-size: 1.3rem; line-height: 1; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background 0.25s, transform 0.25s;
+  z-index: 2; backdrop-filter: blur(4px);
+}
+.carousel-btn:hover { background: rgba(42,28,18,0.85); transform: translateY(-50%) scale(1.1); }
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+.carousel-dots {
+  position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%);
+  display: flex; gap: 6px; z-index: 2;
+}
+.carousel-dots .dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: rgba(255,255,255,0.45); cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+.carousel-dots .dot.active { background: #fff; transform: scale(1.35); }
 
 /* Room lightbox */
 .rlb-overlay {
@@ -1545,7 +1586,7 @@ p {
   color: var(--white);
   background:
     linear-gradient(135deg, rgba(33, 23, 14, 0.96), rgba(52, 35, 21, 0.9)),
-    url("../../Recursos/DJI_20251218_160440_378.jpg") center / cover;
+    url("../img/DJI_20251218_160440_378.jpg") center / cover;
   border-radius: 34px;
   padding: 56px;
   box-shadow: var(--shadow-lg);
@@ -1563,6 +1604,17 @@ p {
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 12px;
+}
+
+@keyframes cta-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(240, 211, 161, 0.5), 0 4px 18px rgba(0,0,0,0.25); transform: scale(1); }
+  50%       { box-shadow: 0 0 0 12px rgba(240, 211, 161, 0), 0 4px 18px rgba(0,0,0,0.25); transform: scale(1.04); }
+}
+
+.cta-actions .btn-primary {
+  animation: cta-pulse 2.4s ease-in-out infinite;
+  padding: 1rem 2rem;
+  font-size: 1rem;
 }
 
 /* ── Footer ── */

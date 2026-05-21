@@ -2,20 +2,20 @@
   "es": {
     "meta": {
       "title": "Entrefrutales | Casa rural completa en La Vilueña, Zaragoza",
-      "description": "Casa rural completa en La Vilueña, Zaragoza. 6 habitaciones dobles, patio con barbacoa, piscina, bodega, terraza, WiFi gratis y aparcamiento privado cerca del Monasterio de Piedra.",
+      "description": "Casa rural completa en La Vilueña, Zaragoza. 6 habitaciones dobles, patio con barbacoa, piscina, terraza, WiFi gratis y aparcamiento privado cerca del Monasterio de Piedra.",
       "og_title": "Entrefrutales | Casa rural completa en Zaragoza"
     },
     "nav": {
       "casa": "La casa",
       "habitaciones": "Habitaciones",
-      "experiencia": "Experiencia",
+      "experiencia": "Fotos/Vídeos",
       "opiniones": "Opiniones",
       "reserva": "Reserva",
       "contacto": "Contacto"
     },
     "hero": {
       "title": "Casa rural completa para grupos que buscan calma y descanso real.",
-      "subtitle": "Entrefrutales es una casa centenaria del siglo XIX, restaurada y pensada para alquilarse íntegra. Seis habitaciones dobles, patio empedrado con barbacoa, piscina, bodega, terraza de 70 m², WiFi gratis y parking privado techado, a 15 km del Monasterio de Piedra.",
+      "subtitle": "Entrefrutales es una casa centenaria del siglo XIX, restaurada y pensada para alquilarse íntegra. Ocho habitaciones dobles, patio empedrado con barbacoa, piscina, terraza de 70 m², WiFi fibra óptica gratis y parking privado techado y cerrado, a 15 km del Monasterio de Piedra.",
       "cta_primary": "Consultar disponibilidad",
       "cta_secondary": "Ver la casa",
       "cta_call": "Llamar a Charo"
@@ -25,18 +25,18 @@
       "rental_label": "Alquiler",
       "rental_value": "Casa completa",
       "capacity_label": "Capacidad",
-      "rooms": "6 habitaciones dobles",
+      "rooms": "8 habitaciones dobles",
       "minstay_label": "Estancia mínima",
       "min_nights": "2 noches",
       "extra_label": "Suplemento",
-      "extra_value": "Cama extra 29€/noche",
+      "extra_value": "Cama niños · 29€/noche",
       "contact_label": "Contacto"
     },
     "hero_facts": {
       "century": "Casa de tres plantas restaurada",
       "monastery": "Del Monasterio de Piedra",
       "terrace": "Terraza al aire libre",
-      "wifi": "Gratis en toda la casa",
+      "wifi": "Fibra óptica · cobertura de todas las operadoras",
       "pool_label": "Piscina",
       "pool": "Del 15 jun. al 15 sep.",
       "parking_label": "Parking",
@@ -47,18 +47,18 @@
       "title": "Una casa histórica con tradición, confort y silencio real.",
       "desc1": "Entrefrutales es una casa centenaria de mampostería y tapial, con muros de hasta 80 cm de grosor, restaurada para combinar autenticidad y comodidad. Se alquila íntegra para grupos y familias, con una distribución pensada para convivir con amplitud y tranquilidad.",
       "desc2": "En la planta baja están recepción, barbacoa, cocina, comedor, patio con jardín, piscina y sala de usos múltiples. La primera planta tiene cuatro habitaciones dobles y la segunda, dos habitaciones con camas de 180×200. Hay cocina en cada planta.",
-      "stat1": "Calidad del sueño según visitantes",
+      "stat1": "Puntuación media según visitantes",
       "stat2_label": "plantas",
       "stat2": "Con cocina en cada una",
-      "stat3_label": "Bodega",
-      "stat3": "Centenaria para vino",
-      "stat4_label": "personas",
+      "stat3_label": "Barbacoa techada",
+      "stat3": "Al aire libre",
+      "stat4_label": "adultos",
       "stat4": "Consultar disponibilidad",
       "award_text": "Entrefrutales, con <strong>Categoría Superior</strong> (equivalente a 4 Espigas) es la casa rural con más reconocimientos y mejor valorada de la provincia de Zaragoza."
     },
     "rooms": {
-      "heading": "Seis habitaciones de una casa completa, no de una reserva por separado.",
-      "note_full": "La casa se alquila completa, no por habitaciones. Todas disponen de cuarto de baño completo, secador, calefacción, aire acondicionado y TV. Hay camas supletorias por 29€/noche y cunas gratuitas.",
+      "heading": "Ocho habitaciones de una casa completa, no de una reserva por separado.",
+      "note_full": "La casa se alquila completa, no por habitaciones. Todas disponen de cuarto de baño completo, secador, calefacción, aire acondicionado y TV. Hay camas supletorias para niños de 2-11 años por 29€/noche y cunas gratuitas bajo demanda.",
       "tag_suite": "Suite",
       "tag_double": "Habitación doble",
       "meta_lounge": "Salita",
@@ -74,9 +74,9 @@
       "almendro_desc": "Habitación con cama de 135, calefacción, aire acondicionado y cuarto de baño completo."
     },
     "experiences": {
-      "kicker": "Experiencia",
+      "kicker": "Fotos/Vídeos",
       "heading": "Zonas comunes pensadas para convivir, descansar y disfrutar en grupo.",
-      "lead": "Entrefrutales destaca por sus espacios compartidos: patio empedrado con plantas naturales, gran barbacoa, terraza exterior, bodega centenaria, amplio salón, sala multiusos y piscina de verano. Todo pensado para pasar varios días en grupo con comodidad real."
+      "lead": "Entrefrutales destaca por sus espacios compartidos: patio empedrado con plantas naturales, gran barbacoa, terraza exterior, amplio salón, amplio comedor, sala multiusos y piscina de verano. Todo pensado para pasar varios días en grupo con comodidad real."
     },
     "feature": {
       "terrace": {
@@ -84,16 +84,16 @@
         "desc": "Una terraza al aire libre de unos 70 m², ideal para cenas largas, sobremesas y noches de estrellas sin contaminación lumínica."
       },
       "bbq": {
-        "title": "Barbacoa y patio",
+        "title": "Barbacoa techada y patio",
         "desc": "El extenso patio empedrado y la gran barbacoa permiten disfrutar de la cocina al aire libre con un ambiente rural muy auténtico."
       },
       "piscina": {
         "title": "Piscina de verano",
-        "desc": "La piscina abre del 15 de junio al 15 de septiembre, aportando un valor claro en los meses de calor para familias y grupos."
+        "desc": "La piscina abre del 15 de junio al 15 de septiembre. Dimensiones: 4,3 × 2,3 × 0,55 m. Ideal para los meses de calor en familia o grupo."
       },
       "wifi": {
-        "title": "WiFi, parking y bodega",
-        "desc": "WiFi gratis, aparcamiento techado y cerrado, y una bodega centenaria para completar una experiencia genuinamente rural."
+        "title": "WiFi y parking",
+        "desc": "Fibra óptica con cobertura de todas las operadoras y aparcamiento techado y cerrado."
       }
     },
     "gallery": {
@@ -125,8 +125,8 @@
     },
     "reservation": {
       "kicker": "Reserva",
-      "heading": "Condiciones claras y proceso sencillo directamente con Charo.",
-      "lead": "La reserva y la información se gestionan directamente. Casa completa, mínimo 2 noches y posibilidad de ampliar si el grupo supera las 12 personas.",
+      "heading": "Condiciones claras y proceso sencillo.",
+      "lead": "Casa completa de 8 habitaciones, mínimo 2 noches. Capacidad para hasta 16 adultos con camas supletorias para niños de 2-11 años.",
       "p1_badge": "Escapada",
       "p1_title": "Estancia base",
       "p1_price": "2 noches",
@@ -136,19 +136,19 @@
       "p1_cta": "Consultar",
       "p2_badge": "Más habitual",
       "p2_title": "Grupo completo",
-      "p2_price": "6 dobles",
+      "p2_price": "8 dobles",
       "p2_f1": "Casa pensada para grupos grandes",
-      "p2_f2": "Piscina, patio, barbacoa, terraza y bodega",
+      "p2_f2": "Piscina, patio, barbacoa y terraza",
       "p2_f3": "Parking gratuito y WiFi incluido",
-      "p2_f4": "Cuna gratuita si se necesita",
+      "p2_f4": "Cuna gratuita bajo petición",
       "p2_cta": "Reservar ahora",
       "p3_badge": "Consulta",
-      "p3_title": "Más de 12 personas",
+      "p3_title": "Hasta 16 personas",
       "p3_price": "A medida",
       "p3_f1": "Consultar disponibilidad y precio",
-      "p3_f2": "Camas supletorias a 29€/noche",
+      "p3_f2": "Camas supletorias para niños entre 2-11 años",
       "p3_f3": "Cunas gratuitas bajo petición",
-      "p3_cta": "Enviar email",
+      "p3_cta": "Enviar mensaje",
       "full_house": {
         "title": "Casa completa",
         "desc": "Entrefrutales se alquila íntegra y no por habitaciones. Mejora la privacidad y hace la estancia más cómoda para grupos."
@@ -158,17 +158,15 @@
         "desc": "La estancia mínima es de dos noches, por lo que es ideal para fines de semana largos, puentes y escapadas."
       },
       "capacity": {
-        "title": "Más de 12 personas",
-        "desc": "Si el grupo supera las 12 personas, consulta disponibilidad y precio con Charo directamente antes de confirmar."
+        "title": "Hasta 16 personas",
+        "desc": "La casa tiene capacidad para hasta 16 personas con camas supletorias para niños entre 2-11 años. Consulta disponibilidad y precio antes de confirmar."
       }
     },
     "contact": {
       "kicker": "Contacto directo",
-      "title": "Habla con Charo y consulta disponibilidad de la casa completa.",
-      "desc": "La reserva y la información se canalizan directamente con Charo. Teléfono 636 86 67 87, correo entrefrutales2008@gmail.com y dirección C/ Mesón 30, 50219 La Vilueña, Zaragoza.",
-      "cta_call": "Llamar ahora",
-      "cta_whatsapp": "WhatsApp",
-      "cta_email": "Email"
+      "title": "¿Tienes alguna pregunta? Escríbenos por WhatsApp.",
+      "desc": "Teléfono 636 86 67 87 · correo entrefrutales2008@gmail.com · C/ Mesón 30, 50219 La Vilueña, Zaragoza.",
+      "cta_whatsapp": "Enviar mensaje"
     },
     "location": {
       "kicker": "Localización",
@@ -209,20 +207,20 @@
   "en": {
     "meta": {
       "title": "Entrefrutales | Complete rural house in La Vilueña, Zaragoza",
-      "description": "Complete rural house in La Vilueña, Zaragoza. 6 double rooms, patio with barbecue, swimming pool, wine cellar, terrace, free WiFi and private parking near Piedra Monastery.",
+      "description": "Complete rural house in La Vilueña, Zaragoza. 6 double rooms, patio with barbecue, swimming pool, terrace, free WiFi and private parking near Piedra Monastery.",
       "og_title": "Entrefrutales | Complete rural house in Zaragoza"
     },
     "nav": {
       "casa": "The House",
       "habitaciones": "Rooms",
-      "experiencia": "Experience",
+      "experiencia": "Photos/Videos",
       "opiniones": "Reviews",
       "reserva": "Booking",
       "contacto": "Contact"
     },
     "hero": {
       "title": "Complete rural house for groups seeking peace and real rest.",
-      "subtitle": "Entrefrutales is a 19th-century house, restored and designed to be rented in full. Six double bedrooms, cobblestone patio with barbecue, pool, wine cellar, 70 m² terrace, free WiFi and covered private parking, 15 km from the Piedra Monastery.",
+      "subtitle": "Entrefrutales is a 19th-century house, restored and designed to be rented in full. Eight double bedrooms, cobblestone patio with barbecue, pool, 70 m² terrace, free fibre optic WiFi and covered private parking, 15 km from the Piedra Monastery.",
       "cta_primary": "Check availability",
       "cta_secondary": "See the house",
       "cta_call": "Call Charo"
@@ -236,14 +234,14 @@
       "minstay_label": "Minimum stay",
       "min_nights": "2 nights",
       "extra_label": "Supplement",
-      "extra_value": "Extra bed €25/night",
+      "extra_value": "Extra bed €29/night",
       "contact_label": "Contact"
     },
     "hero_facts": {
       "century": "Restored three-storey house",
       "monastery": "From Piedra Monastery",
       "terrace": "Open-air terrace",
-      "wifi": "Free throughout the house",
+      "wifi": "Fibre optic · coverage from all operators",
       "pool_label": "Pool",
       "pool": "15 Jun – 15 Sep",
       "parking_label": "Parking",
@@ -254,18 +252,18 @@
       "title": "A historic house with tradition, comfort and real silence.",
       "desc1": "Entrefrutales is a century-old stone-and-rammed-earth house with walls up to 80 cm thick, restored to blend authenticity with comfort. Rented as a whole for groups and families, designed for spacious and peaceful communal living.",
       "desc2": "The ground floor has the reception, barbecue, kitchen, dining room, garden patio, pool and multi-purpose room. The first floor has four double bedrooms and the second floor has two bedrooms with 180×200 beds. There is a kitchen on each floor.",
-      "stat1": "Sleep quality according to guests",
+      "stat1": "Average score according to guests",
       "stat2_label": "floors",
       "stat2": "With kitchen on each floor",
-      "stat3_label": "Wine cellar",
-      "stat3": "Century-old for wine",
-      "stat4_label": "people",
+      "stat3_label": "Covered barbecue",
+      "stat3": "Outdoor area",
+      "stat4_label": "adults",
       "stat4": "Check availability",
       "award_text": "Entrefrutales, with <strong>Superior Category</strong> (equivalent to 4 Espigas) is the rural guesthouse with the most accolades and the best ratings in the province of Zaragoza."
     },
     "rooms": {
-      "heading": "Six bedrooms of a complete house, not a separate booking.",
-      "note_full": "The house is rented as a whole, not by room. All have a full bathroom, hair dryer, heating, air conditioning and TV. Extra beds available for €25/night and free cots.",
+      "heading": "Eight bedrooms of a complete house, not a separate booking.",
+      "note_full": "The house is rented as a whole, not by room. All have a full bathroom, hair dryer, heating, air conditioning and TV. Extra beds for children aged 2-11 available for €29/night and free cots on request.",
       "tag_suite": "Suite",
       "tag_double": "Double room",
       "meta_lounge": "Lounge area",
@@ -281,9 +279,9 @@
       "almendro_desc": "Room with 135 cm bed, heating, air conditioning and full bathroom."
     },
     "experiences": {
-      "kicker": "Experience",
+      "kicker": "Photos/Videos",
       "heading": "Common areas designed to share, rest and enjoy as a group.",
-      "lead": "Entrefrutales stands out for its shared spaces: cobblestone patio with natural plants, large barbecue, outdoor terrace, century-old wine cellar, spacious living room, multi-purpose room and summer pool. Everything designed for several days together in real comfort."
+      "lead": "Entrefrutales stands out for its shared spaces: cobblestone patio with natural plants, large barbecue, outdoor terrace, spacious living room, spacious dining room, multi-purpose room and summer pool. Everything designed for several days together in real comfort."
     },
     "feature": {
       "terrace": {
@@ -291,16 +289,16 @@
         "desc": "An open-air terrace of about 70 m², ideal for long dinners, after-dinner chats and stargazing with no light pollution."
       },
       "bbq": {
-        "title": "Barbecue and patio",
+        "title": "Covered barbecue and patio",
         "desc": "The spacious cobblestone patio and large barbecue let you enjoy outdoor cooking in a very authentic rural atmosphere."
       },
       "piscina": {
         "title": "Summer pool",
-        "desc": "The pool is open from 15 June to 15 September, offering clear value in the warm months for families and groups."
+        "desc": "The pool is open from 15 June to 15 September. Dimensions: 4.3 × 2.3 × 0.55 m. Perfect for the warm months with family or groups."
       },
       "wifi": {
-        "title": "WiFi, parking and wine cellar",
-        "desc": "Free WiFi, covered and gated parking, and a century-old wine cellar to complete a genuinely rural experience."
+        "title": "WiFi and parking",
+        "desc": "Fibre optic WiFi with coverage from all operators and covered, gated parking."
       }
     },
     "gallery": {
@@ -332,8 +330,8 @@
     },
     "reservation": {
       "kicker": "Booking",
-      "heading": "Clear conditions and a simple process directly with Charo.",
-      "lead": "Bookings and information are managed directly. Full house, minimum 2 nights, with the option to extend if the group exceeds 12 people.",
+      "heading": "Clear conditions and a simple process.",
+      "lead": "Full house with 8 bedrooms, minimum 2 nights. Capacity for up to 16 adults with extra beds for children aged 2-11.",
       "p1_badge": "Getaway",
       "p1_title": "Base stay",
       "p1_price": "2 nights",
@@ -343,19 +341,19 @@
       "p1_cta": "Enquire",
       "p2_badge": "Most popular",
       "p2_title": "Full group",
-      "p2_price": "6 doubles",
+      "p2_price": "8 doubles",
       "p2_f1": "House designed for large groups",
-      "p2_f2": "Pool, patio, barbecue, terrace and wine cellar",
+      "p2_f2": "Pool, patio, barbecue and terrace",
       "p2_f3": "Free parking and WiFi included",
-      "p2_f4": "Free cot if needed",
+      "p2_f4": "Free cot on request",
       "p2_cta": "Book now",
       "p3_badge": "Enquiry",
-      "p3_title": "More than 12 people",
+      "p3_title": "Up to 16 people",
       "p3_price": "Custom",
       "p3_f1": "Check availability and price",
-      "p3_f2": "Extra beds at €25/night",
+      "p3_f2": "Extra beds for children aged 2-11",
       "p3_f3": "Free cots on request",
-      "p3_cta": "Send email",
+      "p3_cta": "Send message",
       "full_house": {
         "title": "Complete house",
         "desc": "Entrefrutales is rented as a whole and not by room. This improves privacy and makes your stay more comfortable for groups."
@@ -365,17 +363,15 @@
         "desc": "The minimum stay is two nights, making it ideal for long weekends, bank holidays and getaways."
       },
       "capacity": {
-        "title": "More than 12 people",
-        "desc": "If your group exceeds 12 people, consult availability and price with Charo directly before confirming."
+        "title": "Up to 16 people",
+        "desc": "The house can accommodate up to 16 people with extra beds for children aged 2-11. Check availability and price before confirming."
       }
     },
     "contact": {
       "kicker": "Direct contact",
-      "title": "Talk to Charo and check the availability of the complete house.",
-      "desc": "Bookings and information are managed directly with Charo. Phone +34 636 86 67 87, email entrefrutales2008@gmail.com and address C/ Mesón 30, 50219 La Vilueña, Zaragoza.",
-      "cta_call": "Call now",
-      "cta_whatsapp": "WhatsApp",
-      "cta_email": "Email"
+      "title": "Any questions? Send us a WhatsApp message.",
+      "desc": "Phone +34 636 86 67 87 · email entrefrutales2008@gmail.com · C/ Mesón 30, 50219 La Vilueña, Zaragoza.",
+      "cta_whatsapp": "Send message"
     },
     "location": {
       "kicker": "Location",
