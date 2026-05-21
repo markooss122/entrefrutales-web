@@ -1183,9 +1183,64 @@ p {
 
 .entorno-list a:hover { border-bottom-color: var(--gold-2); }
 
-/* ── Reconocimientos ── */
+/* ── Reconocimientos (zona destacada y dinámica) ── */
 .recognitions-grid {
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* Tarjeta tipo "premio": fondo glass, transición propia que incluye sombra */
+.recognitions-grid .feature {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, var(--surface-strong), var(--surface));
+  border-color: rgba(210, 163, 92, 0.28);
+  transition: opacity 0.7s ease,
+              transform 0.7s cubic-bezier(0.2, 0.75, 0.3, 1),
+              box-shadow 0.4s ease,
+              border-color 0.4s ease;
+}
+
+/* Barra superior dorada con brillo animado */
+.recognitions-grid .feature::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #9a5c00 0%, #f5d078 30%, #ffeaa0 50%, #f5d078 70%, #9a5c00 100%);
+  background-size: 300% auto;
+  animation: goldShimmer 3s linear infinite;
+}
+
+/* Entrada más marcada + escalonada (las tarjetas ya tienen .reveal) */
+.recognitions-grid .feature.reveal { transform: translateY(42px) scale(0.95); }
+.recognitions-grid .feature.reveal.visible { transform: none; }
+.recognitions-grid .feature:nth-child(1) { transition-delay: 0.05s; }
+.recognitions-grid .feature:nth-child(2) { transition-delay: 0.18s; }
+.recognitions-grid .feature:nth-child(3) { transition-delay: 0.31s; }
+
+/* Hover: elevación y resplandor dorado (sin retardo) */
+.recognitions-grid .feature:hover {
+  transform: translateY(-10px);
+  border-color: rgba(210, 163, 92, 0.6);
+  box-shadow: 0 22px 50px rgba(210, 163, 92, 0.22);
+  transition-delay: 0s;
+}
+
+/* Icono dorado con pulso continuo y giro al pasar el ratón */
+.recognitions-grid .feature-icon {
+  background: linear-gradient(135deg, #ebc88f, var(--gold));
+  color: #3a2912;
+  transition: transform 0.35s ease;
+  animation: awardPulse 3.2s ease-in-out infinite;
+}
+
+.recognitions-grid .feature:hover .feature-icon {
+  transform: rotate(-6deg) scale(1.08);
+}
+
+@keyframes awardPulse {
+  0%, 100% { box-shadow: 0 8px 22px rgba(210, 163, 92, 0.30); }
+  50%      { box-shadow: 0 8px 30px rgba(210, 163, 92, 0.55); }
 }
 
 .recognition-link {
@@ -1195,9 +1250,18 @@ p {
   font-size: 0.9rem;
   color: var(--gold-2);
   border-bottom: 1px solid rgba(184, 131, 61, 0.4);
+  transition: border-color 0.25s ease, transform 0.25s ease;
 }
 
-.recognition-link:hover { border-bottom-color: var(--gold-2); }
+.recognition-link:hover {
+  border-bottom-color: var(--gold-2);
+  transform: translateX(4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .recognitions-grid .feature::before,
+  .recognitions-grid .feature-icon { animation: none; }
+}
 
 /* ── Gallery filters ── */
 .gallery-filters {
