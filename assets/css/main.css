@@ -851,6 +851,21 @@ p {
   object-fit: contain;
 }
 
+.calidad-caption {
+  max-width: 540px;
+  margin: 14px auto 22px;
+  text-align: center;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--muted);
+  text-wrap: balance;
+}
+
+.calidad-caption strong {
+  color: var(--gold-2);
+  font-weight: 700;
+}
+
 .image-frame {
   overflow: hidden;
   border-radius: var(--radius-xl);

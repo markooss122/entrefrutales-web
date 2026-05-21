@@ -53,7 +53,8 @@
       "stat3_label": "Bodega",
       "stat3": "Centenaria para vino",
       "stat4_label": "personas",
-      "stat4": "Consultar disponibilidad"
+      "stat4": "Consultar disponibilidad",
+      "award_text": "Entrefrutales, con <strong>Categoría Superior</strong> (equivalente a 4 Espigas) es la casa rural con más reconocimientos y mejor valorada de la provincia de Zaragoza."
     },
     "rooms": {
       "heading": "Seis habitaciones de una casa completa, no de una reserva por separado.",
@@ -259,7 +260,8 @@
       "stat3_label": "Wine cellar",
       "stat3": "Century-old for wine",
       "stat4_label": "people",
-      "stat4": "Check availability"
+      "stat4": "Check availability",
+      "award_text": "Entrefrutales, with <strong>Superior Category</strong> (equivalent to 4 Espigas) is the rural guesthouse with the most accolades and the best ratings in the province of Zaragoza."
     },
     "rooms": {
       "heading": "Six bedrooms of a complete house, not a separate booking.",
