@@ -57,6 +57,18 @@
       "stat4": "Consultar disponibilidad",
       "award_text": "Entrefrutales, con <strong>Categoría Superior</strong> (equivalente a 4 Espigas) es la casa rural con más reconocimientos y mejor valorada de la provincia de Zaragoza."
     },
+    "recognitions": {
+      "kicker": "Reconocimientos",
+      "title": "Reconocimientos otorgados",
+      "lead": "Entrefrutales es una de las casas rurales más reconocidas y mejor valoradas de la provincia de Zaragoza.",
+      "r1_title": "Premio Calidad Rural",
+      "r1_desc": "El Gobierno de Aragón y el Fondo Europeo Agrícola de Desarrollo Rural (FEADER) nos concedieron el premio de Calidad Rural por los méritos de calidad alcanzados, con diploma y una placa que tenemos colocada en la puerta de entrada.",
+      "r2_title": "Distintivo de Calidad Turística",
+      "r2_desc": "La Comarca de Calatayud nos concedió el distintivo de Calidad Turística.",
+      "r3_title": "Una de las 12 mejores casas rurales de Aragón",
+      "r3_desc": "La revista Espiga Digital (2014) nos eligió como una de las 12 mejores casas rurales de Aragón.",
+      "r3_link": "Ver artículo ↗"
+    },
     "rooms": {
       "heading": "Ocho habitaciones de una casa completa, no de una reserva por separado.",
       "note_full": "La casa se alquila completa, no por habitaciones. Todas disponen de cuarto de baño completo, secador, calefacción, aire acondicionado y TV. Hay camas supletorias para niños de 2-11 años por 29€/noche y cunas gratuitas bajo demanda.",
@@ -288,6 +300,18 @@
       "stat4_label": "adults",
       "stat4": "Check availability",
       "award_text": "Entrefrutales, with <strong>Superior Category</strong> (equivalent to 4 Espigas) is the rural guesthouse with the most accolades and the best ratings in the province of Zaragoza."
+    },
+    "recognitions": {
+      "kicker": "Awards",
+      "title": "Awards and recognitions",
+      "lead": "Entrefrutales is one of the most awarded and best-rated rural guesthouses in the province of Zaragoza.",
+      "r1_title": "Rural Quality Award",
+      "r1_desc": "The Government of Aragón and the European Agricultural Fund for Rural Development (EAFRD) granted us the Rural Quality award for our quality merits, with a diploma and a plaque displayed at our front door.",
+      "r2_title": "Tourism Quality Distinction",
+      "r2_desc": "The Comarca de Calatayud granted us the Tourism Quality distinction.",
+      "r3_title": "One of the 12 best rural houses in Aragón",
+      "r3_desc": "Espiga Digital magazine (2014) chose us as one of the 12 best rural houses in Aragón.",
+      "r3_link": "Read the article ↗"
     },
     "rooms": {
       "heading": "Eight bedrooms of a complete house, not a separate booking.",

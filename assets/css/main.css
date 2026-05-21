@@ -1183,6 +1183,22 @@ p {
 
 .entorno-list a:hover { border-bottom-color: var(--gold-2); }
 
+/* ── Reconocimientos ── */
+.recognitions-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.recognition-link {
+  display: inline-block;
+  margin-top: 14px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--gold-2);
+  border-bottom: 1px solid rgba(184, 131, 61, 0.4);
+}
+
+.recognition-link:hover { border-bottom-color: var(--gold-2); }
+
 /* ── Gallery filters ── */
 .gallery-filters {
   display: flex;
