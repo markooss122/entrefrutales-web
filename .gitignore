@@ -1,4 +1,11 @@
-.claude/
+# Ignorar lo local de Claude, pero versionar la skill y el agente del proyecto
+.claude/*
+!.claude/skills/
+!.claude/agents/
+
+# Capturas de previsualizacion que genera la skill run-entrefrutales
+.preview*.png
+
 .vscode/
 Recursos/
 *.DS_Store
