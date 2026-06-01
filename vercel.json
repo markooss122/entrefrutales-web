@@ -1,5 +1,15 @@
 {
   "buildCommand": "echo 'Building...' && exit 0",
   "outputDirectory": ".",
-  "cacheMaxAge": 0
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    }
+  ]
 }
