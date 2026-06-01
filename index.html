@@ -1345,20 +1345,8 @@
     }
 
     function initMap() {
-      var pois = [
-        { lat: 41.1717, lng: -1.9944, name: 'Monasterio de Piedra', dist: '15 km' },
-        { lat: 41.3565, lng: -1.6434, name: 'Calatayud',            dist: '12 km' },
-        { lat: 41.2988, lng: -1.9002, name: 'Alhama de Aragón',     dist: '20 km' },
-        { lat: 41.1133, lng: -1.4168, name: 'Daroca',               dist: '25 km' },
-        { lat: 40.9583, lng: -1.5167, name: 'Gallocanta',           dist: '35 km' },
-        { lat: 41.3550, lng: -1.7167, name: 'Bílbilis',             dist: '14 km' }
-      ];
-
-      /* fit map to all markers */
-      var balnearioCoords = [[41.2988,-1.9002],[41.1719,-1.9614],[41.2842,-1.6778]];
-      var allPoints = [[41.2135, -1.7450]].concat(pois.map(function(p){ return [p.lat, p.lng]; })).concat(balnearioCoords);
       var map = L.map('map', { scrollWheelZoom: false });
-      map.fitBounds(allPoints, { padding: [40, 40] });
+      map.setView([41.2135, -1.7450], 13);
 
       L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
@@ -1366,44 +1354,14 @@
         maxZoom: 19
       }).addTo(map);
 
-      /* house marker */
       var houseIcon = L.divIcon({
         className: '',
-        html: makeLabel('🏡 Entrefrutales', '#4a7a2e', 13),
+        html: makeLabel('📍 Entrefrutales', '#b03a2e', 13),
         iconSize: null,
         iconAnchor: [0, 34]
       });
       L.marker([41.2135, -1.7450], { icon: houseIcon }).addTo(map)
         .bindPopup('<strong>Entrefrutales</strong><br>C/ Mesón 30, La Vilueña');
-
-      /* POI markers */
-      pois.forEach(function (p) {
-        var icon = L.divIcon({
-          className: '',
-          html: makeLabel('📍 ' + p.name, '#b03a2e', 11),
-          iconSize: null,
-          iconAnchor: [0, 28]
-        });
-        L.marker([p.lat, p.lng], { icon: icon }).addTo(map)
-          .bindPopup('<strong>' + p.name + '</strong><br>' + p.dist + ' desde Entrefrutales');
-      });
-
-      /* Balnearios (blue markers) */
-      var balnearios = [
-        { lat: 41.2988, lng: -1.9002, name: 'Balneario Alhama de Aragón',      dist: '20 km', url: 'https://www.hotelbalnearioalhamadearagon.com/' },
-        { lat: 41.1719, lng: -1.9614, name: 'Balneario de la Virgen (Jaraba)', dist: '22 km', url: 'https://balneariodelavirgen.com/' },
-        { lat: 41.2842, lng: -1.6778, name: 'Balneario Paracuellos de Jiloca', dist: '10 km', url: 'https://balneariodeparacuellos.com/' }
-      ];
-      balnearios.forEach(function (b) {
-        var icon = L.divIcon({
-          className: '',
-          html: '<div style="background:#1a6fa8;color:#fff;width:28px;height:28px;border-radius:50%;font-size:16px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,0.28);">💧</div>',
-          iconSize: [28, 28],
-          iconAnchor: [14, 14]
-        });
-        L.marker([b.lat, b.lng], { icon: icon }).addTo(map)
-          .bindPopup('<strong>' + b.name + '</strong><br>' + b.dist + ' desde Entrefrutales<br><a href="' + b.url + '" target="_blank" rel="noopener" style="color:#1a6fa8;font-size:11px;">Visitar web →</a>');
-      });
     }
 
     if ('IntersectionObserver' in window) {
