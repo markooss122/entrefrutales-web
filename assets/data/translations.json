@@ -159,7 +159,7 @@
       "p2_f4": "Cuna gratuita bajo petición",
       "p2_cta": "Reservar ahora",
       "p3_badge": "Consulta",
-      "p3_title": "Hasta 16 personas",
+      "p3_title": "Hasta 16 adultos",
       "p3_price": "A medida",
       "p3_f1": "Consultar disponibilidad y precio",
       "p3_f2": "Camas supletorias para niños entre 2-11 años",
@@ -174,7 +174,7 @@
         "desc": "La estancia mínima es de dos noches, por lo que es ideal para fines de semana largos, puentes y escapadas."
       },
       "capacity": {
-        "title": "Hasta 16 personas",
+        "title": "Hasta 16 adultos",
         "desc": "La casa tiene capacidad para hasta 16 personas con camas supletorias para niños entre 2-11 años. Consulta disponibilidad y precio antes de confirmar."
       }
     },
@@ -406,7 +406,7 @@
       "p2_f4": "Free cot on request",
       "p2_cta": "Book now",
       "p3_badge": "Enquiry",
-      "p3_title": "Up to 16 people",
+      "p3_title": "Up to 16 adults",
       "p3_price": "Custom",
       "p3_f1": "Check availability and price",
       "p3_f2": "Extra beds for children aged 2-11",
@@ -421,7 +421,7 @@
         "desc": "The minimum stay is two nights, making it ideal for long weekends, bank holidays and getaways."
       },
       "capacity": {
-        "title": "Up to 16 people",
+        "title": "Up to 16 adults",
         "desc": "The house can accommodate up to 16 people with extra beds for children aged 2-11. Check availability and price before confirming."
       }
     },
