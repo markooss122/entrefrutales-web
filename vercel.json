@@ -1,5 +1,5 @@
 {
-  "buildCommand": "echo 'Building...' && exit 0",
+  "buildCommand": "echo 'Clean rebuild v2' && exit 0",
   "outputDirectory": ".",
   "headers": [
     {
