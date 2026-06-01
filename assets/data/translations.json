@@ -1,0 +1,496 @@
+{
+  "es": {
+    "meta": {
+      "title": "Entrefrutales | Casa rural completa en La Vilueña, Zaragoza",
+      "description": "Casa rural completa en La Vilueña, Zaragoza. 6 habitaciones dobles, patio con barbacoa, piscina, terraza, WiFi gratis y aparcamiento privado cerca del Monasterio de Piedra.",
+      "og_title": "Entrefrutales | Casa rural completa en Zaragoza"
+    },
+    "nav": {
+      "casa": "La casa",
+      "habitaciones": "Habitaciones",
+      "experiencia": "Fotos/Vídeos",
+      "opiniones": "Opiniones",
+      "reserva": "Reserva",
+      "entorno": "El entorno",
+      "contacto": "Contacto"
+    },
+    "hero": {
+      "title": "Casa rural completa para grupos que buscan calma y descanso real.",
+      "subtitle": "Entrefrutales es una casa centenaria del siglo XIX, restaurada y pensada para alquilarse íntegra. Ocho habitaciones dobles, patio empedrado con barbacoa, piscina, terraza de 70 m², WiFi fibra óptica gratis y parking privado techado y cerrado, a 15 km del Monasterio de Piedra.",
+      "cta_primary": "Consultar disponibilidad",
+      "cta_secondary": "Ver la casa",
+      "cta_call": "Llamar a Charo"
+    },
+    "hero_card": {
+      "label": "Datos esenciales",
+      "rental_label": "Alquiler",
+      "rental_value": "Casa completa",
+      "capacity_label": "Capacidad",
+      "rooms": "8 habitaciones dobles",
+      "minstay_label": "Estancia mínima",
+      "min_nights": "2 noches",
+      "extra_label": "Suplemento",
+      "extra_value": "Cama niños · 29€/noche",
+      "contact_label": "Contacto"
+    },
+    "hero_facts": {
+      "century": "Casa de tres plantas restaurada",
+      "monastery": "Del Monasterio de Piedra",
+      "terrace": "Terraza al aire libre",
+      "wifi": "Fibra óptica · cobertura de todas las operadoras",
+      "pool_label": "Piscina",
+      "pool": "Del 15 jun. al 15 sep.",
+      "parking_label": "Parking",
+      "parking": "Techado, cerrado y gratuito"
+    },
+    "casa": {
+      "kicker": "La casa",
+      "title": "Una casa histórica con tradición, confort y silencio real.",
+      "desc1": "Entrefrutales es una casa centenaria de mampostería y tapial, con muros de hasta 80 cm de grosor, restaurada para combinar autenticidad y comodidad. Se alquila íntegra para grupos y familias, con una distribución pensada para convivir con amplitud y tranquilidad.",
+      "desc2": "En la planta baja están recepción, barbacoa, cocina, comedor, patio con jardín, piscina y sala de usos múltiples. La primera planta tiene seis habitaciones dobles y la segunda, dos habitaciones con camas de 180×200.",
+      "stat1": "Puntuación media según visitantes",
+      "stat2_label": "plantas",
+      "stat2": "",
+      "stat3_label": "Barbacoa techada",
+      "stat3": "",
+      "stat4_label": "adultos",
+      "stat4": "",
+      "award_label": "Reconocimiento de Calidad",
+      "award_text": "Entrefrutales, con <strong>Categoría Superior</strong> (equivalente a 4 Espigas) es la casa rural con más reconocimientos y mejor valorada de la provincia de Zaragoza."
+    },
+    "recognitions": {
+      "kicker": "Reconocimientos",
+      "title": "Reconocimientos otorgados",
+      "lead": "Entrefrutales es una de las casas rurales más reconocidas y mejor valoradas de la provincia de Zaragoza.",
+      "r1_title": "Premio Calidad Rural",
+      "r1_desc": "El Gobierno de Aragón y el Fondo Europeo Agrícola de Desarrollo Rural (FEADER) nos concedieron el premio de Calidad Rural por los méritos de calidad alcanzados, con diploma y una placa que tenemos colocada en la puerta de entrada.",
+      "r2_title": "Distintivo de Calidad Turística",
+      "r2_desc": "La Comarca de Calatayud nos concedió el distintivo de Calidad Turística.",
+      "r3_title": "Una de las 12 mejores casas rurales de Aragón",
+      "r3_desc": "La revista Espiga Digital (2014) nos eligió como una de las 12 mejores casas rurales de Aragón.",
+      "r3_link": "Ver artículo ↗"
+    },
+    "rooms": {
+      "heading": "Ocho habitaciones de una casa completa.",
+      "note_full": "La casa se alquila completa, no por habitaciones. Todas disponen de cuarto de baño completo, secador, calefacción, aire acondicionado y TV. Hay camas supletorias para niños de 2-11 años por 29€/noche y cunas gratuitas bajo demanda.",
+      "tag_suite": "Suite",
+      "tag_double": "Habitación doble",
+      "meta_lounge": "Salita",
+      "meta_bath": "Baño completo",
+      "meta_ac": "Aire acondicionado",
+      "meta_dryer": "Secador",
+      "meta_bed135": "Cama 135",
+      "manzano_desc": "Suite con cama de 180×200, calefacción, aire acondicionado, salita y cuarto de baño completo.",
+      "vid_desc": "Habitación con cama de 180×200, calefacción, aire acondicionado y cuarto de baño completo.",
+      "cerezo_desc": "Habitación con cama de 135, calefacción, aire acondicionado y cuarto de baño completo.",
+      "melocoton_desc": "Habitación con 2 camas de 90×200, calefacción, aire acondicionado y cuarto de baño completo.",
+      "cereal_desc": "Suite con cama de 180×200, calefacción, aire acondicionado, salita y cuarto de baño completo.",
+      "almendro_desc": "Habitación con cama de 135, calefacción, aire acondicionado y cuarto de baño completo.",
+      "sandia_desc": "Habitación con 2 camas de 90×200, calefacción, aire acondicionado y cuarto de baño completo.",
+      "higuera_desc": "Habitación con 2 camas de 90×200, calefacción, aire acondicionado y cuarto de baño completo."
+    },
+    "experiences": {
+      "kicker": "Fotos/Vídeos",
+      "heading": "Zonas comunes pensadas para convivir, descansar y disfrutar en grupo.",
+      "lead": "Entrefrutales destaca por sus espacios compartidos: patio empedrado con plantas naturales, gran barbacoa, terraza exterior, amplio comedor, sala multiusos y piscina de verano. Todo pensado para pasar varios días en grupo con comodidad real."
+    },
+    "feature": {
+      "terrace": {
+        "title": "Terraza y cielo limpio",
+        "desc": "Una terraza al aire libre de unos 70 m², ideal para cenas largas, sobremesas y noches de estrellas sin contaminación lumínica."
+      },
+      "bbq": {
+        "title": "Barbacoa techada y patio",
+        "desc": "El extenso patio empedrado y la gran barbacoa permiten disfrutar de la cocina al aire libre con un ambiente rural muy auténtico."
+      },
+      "piscina": {
+        "title": "Piscina de verano",
+        "desc": "La piscina abre del 15 de junio al 15 de septiembre. Dimensiones: 4,3 × 2,3 × 0,55 m, con depuradora. Ideal para los meses de calor en familia o grupo."
+      },
+      "wifi": {
+        "title": "WiFi y parking",
+        "desc": "Fibra óptica con cobertura de todas las operadoras y aparcamiento techado y cerrado."
+      }
+    },
+    "gallery": {
+      "more": "Ver todas las fotos (44)"
+    },
+    "video": {
+      "kicker": "Tour virtual",
+      "title": "Recorre la casa antes de llegar.",
+      "desc": "Un paseo en vídeo por las estancias, el patio, la piscina y los alrededores para que llegues ya sintiéndote en casa.",
+      "watch": "Ver en YouTube"
+    },
+    "testimonials": {
+      "kicker": "Opiniones",
+      "heading": "Lo que dicen quienes ya han descansado aquí.",
+      "lead": "Una casa con calificaciones muy altas en calidad del sueño, trato y ubicación. El silencio, el espacio y el trato directo con Charo son los aspectos más valorados.",
+      "score_label": "Puntuación media",
+      "bar_sleep": "Calidad del sueño",
+      "bar_clean": "Limpieza",
+      "bar_location": "Ubicación",
+      "bar_value": "Relación calidad-precio",
+      "bar_service": "Trato y atención",
+      "t1_text": "\"Fuimos en familia y la sensación fue de casa completa de verdad: habitaciones cómodas, patio espectacular y muchísimo espacio para convivir sin agobios.\"",
+      "t1_origin": "Escapada familiar · Zaragoza",
+      "t2_text": "\"Lo mejor fue la tranquilidad y el descanso. La ubicación para visitar el Monasterio de Piedra es perfecta y la casa muy práctica para pasar varios días.\"",
+      "t2_origin": "Turismo por la zona · Madrid",
+      "t3_text": "\"La combinación de piscina, terraza, barbacoa y habitaciones amplias hace que la casa funcione muy bien para grupos grandes. Repetiremos sin duda.\"",
+      "t3_name": "Grupo de amigos",
+      "t3_origin": "Fin de semana rural · Valencia"
+    },
+    "reservation": {
+      "kicker": "Reserva",
+      "heading": "Condiciones claras y proceso sencillo.",
+      "lead": "Casa completa de 8 habitaciones, mínimo 2 noches. Capacidad para hasta 16 adultos con camas supletorias para niños de 2-11 años.",
+      "p1_badge": "Escapada",
+      "p1_title": "Estancia base",
+      "p1_price": "2 noches",
+      "p1_f1": "Alquiler íntegro de la casa",
+      "p1_f2": "Ideal para fines de semana",
+      "p1_f3": "Consulta directa por teléfono o email",
+      "p1_cta": "Consultar",
+      "p2_badge": "Más habitual",
+      "p2_title": "Grupo completo",
+      "p2_price": "8 dobles",
+      "p2_f1": "Casa pensada para grupos grandes",
+      "p2_f2": "Piscina, patio, barbacoa y terraza",
+      "p2_f3": "Parking gratuito y WiFi incluido",
+      "p2_f4": "Cuna gratuita bajo petición",
+      "p2_cta": "Reservar ahora",
+      "p3_badge": "Consulta",
+      "p3_title": "Hasta 16 personas",
+      "p3_price": "A medida",
+      "p3_f1": "Consultar disponibilidad y precio",
+      "p3_f2": "Camas supletorias para niños entre 2-11 años",
+      "p3_f3": "Cunas gratuitas bajo petición",
+      "p3_cta": "Enviar mensaje a Charo",
+      "full_house": {
+        "title": "Mínimo 6 habitaciones",
+        "desc": "Entrefrutales se alquila íntegra y no por habitaciones. Mejora la privacidad y hace la estancia más cómoda para grupos."
+      },
+      "min_nights": {
+        "title": "Mínimo 2 noches",
+        "desc": "La estancia mínima es de dos noches, por lo que es ideal para fines de semana largos, puentes y escapadas."
+      },
+      "capacity": {
+        "title": "Hasta 16 personas",
+        "desc": "La casa tiene capacidad para hasta 16 personas con camas supletorias para niños entre 2-11 años. Consulta disponibilidad y precio antes de confirmar."
+      }
+    },
+    "contact": {
+      "kicker": "Contacto directo",
+      "title": "¿Tienes alguna pregunta? Escríbenos por WhatsApp.",
+      "desc": "Teléfono 636 86 67 87 · entrefrutales2008@gmail.com · C/ Mesón 30, 50219 La Vilueña, Zaragoza.",
+      "cta_whatsapp": "Enviar mensaje a Charo"
+    },
+    "location": {
+      "kicker": "Localización",
+      "title": "La Vilueña, Zaragoza",
+      "address_label": "Dirección:",
+      "address": "C/ Mesón 30, 50219 La Vilueña, Zaragoza",
+      "surroundings_label": "Entorno:",
+      "surroundings": "Monasterio de Piedra a 15 km · Calatayud a 12 km",
+      "access_label": "Acceso:",
+      "access": "Bien señalizado desde la autovía A-2"
+    },
+    "entorno": {
+      "kicker": "El entorno",
+      "title": "Qué hacer en los alrededores",
+      "lead": "Si te alojas en Entrefrutales puedes disfrutar de naturaleza, deporte, cultura y gastronomía a pocos kilómetros de la casa.",
+      "act_title": "Actividades",
+      "act_1": "Senderismo siguiendo caminos que conducen a las ermitas de San Juan y San Antón.",
+      "act_2": "Otras rutas y la posibilidad de coger rebollones en los pinares del municipio, si el otoño es lluvioso y con buena temperatura.",
+      "act_3": "Práctica de golf a tan sólo 10 km, en el campo de Calatayud (Augusta Golf Calatayud).",
+      "act_4": "Piragüismo en el pantano de la Tranquera, a 7 km de La Vilueña.",
+      "act_5": "Balneoterapia con circuitos termales de aguas curativas en Alhama de Aragón, Jaraba y Paracuellos de Jiloca.",
+      "act_6": "Ruta del Mudéjar en Calatayud y su entorno, además de otras de carácter artístico, gastronómico y enológico.",
+      "act_7": "Adquisición de fruta de temporada a precio de cosechero. Desde finales de mayo hasta finales de julio se cosecha la cereza, con variedades muy distintas y una calidad y sabor excelentes.",
+      "act_8": "Escalada en Jaraba y Embid de la Ribera, a unos 15 km.",
+      "poi_title": "Lugares de interés",
+      "poi_1": "El Monasterio de Piedra (15 km): visita obligada al monumento cárstico cincelado por las aguas del Río Piedra. Conviene sacar las entradas por Internet con antelación (más baratas y sin colas). El parque, dentro de la red de Espacios Protegidos de Aragón, esconde lagos, grutas y cascadas como el Lago del Espejo o la imponente Cola del Caballo, de 50 m.",
+      "poi_2": "Ruta del Mudéjar en Calatayud y su comarca.",
+      "poi_3": "Ruta del vino en la Comarca de Calatayud: <a href=\"https://rutadelvinocalatayud.com\" target=\"_blank\" rel=\"noopener\">rutadelvinocalatayud.com</a>",
+      "poi_4": "Yacimiento de Bílbilis en Calatayud (12 km) y otros monumentos del arte mudéjar más puro.",
+      "poi_5": "Pantano de La Tranquera, a 12 km.",
+      "poi_6": "Laguna de Gallocanta (40 km): observación de las grullas migratorias entre la segunda quincena de noviembre y la primera de diciembre.",
+      "poi_7": "Daroca y el parque temático Dinópolis (Teruel). Albarracín Aventura con tirolinas, paintball y tiro con arco.",
+      "poi_8": "Zaragoza (100 km), con la Basílica del Pilar y La Seo.",
+      "poi_9": "Tarazona, El Moncayo, Borja y el Monasterio de Veruela (90 km).",
+      "poi_10": "Soria y la Laguna Negra (100 km)."
+    },
+    "contact_info": {
+      "kicker": "Datos de contacto",
+      "title": "Información y reservas",
+      "phone": "Teléfono",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "person": "Persona de contacto",
+      "charo": "Charo",
+      "wa_cta": "Escribir por WhatsApp"
+    },
+    "footer": {
+      "description": "Casa rural completa en La Vilueña, Zaragoza. 8 habitaciones dobles, amplias zonas comunes, WiFi de fibra óptica gratis con cobertura de todas las operadoras y parking privado techado y cerrado.",
+      "nav_title": "Navegación",
+      "contact_title": "Contacto",
+      "legal_title": "Legal",
+      "legal_notice": "Aviso legal",
+      "privacy": "Política de privacidad",
+      "cookies": "Política de cookies",
+      "registry_label": "Registro turístico",
+      "copy": "© 2026 Entrefrutales · Casa rural completa · Mínimo 2 noches · La Vilueña, Zaragoza"
+    },
+    "cookies": {
+      "desc": "Esta web utiliza cookies propias y de terceros para mejorar la experiencia de navegación. Al continuar navegando aceptas su uso. Puedes consultar nuestra <a href=\"#\">política de cookies</a>.",
+      "only_necessary": "Solo necesarias",
+      "accept_all": "Aceptar todas"
+    }
+  },
+  "en": {
+    "meta": {
+      "title": "Entrefrutales | Complete rural house in La Vilueña, Zaragoza",
+      "description": "Complete rural house in La Vilueña, Zaragoza. 6 double rooms, patio with barbecue, swimming pool, terrace, free WiFi and private parking near Piedra Monastery.",
+      "og_title": "Entrefrutales | Complete rural house in Zaragoza"
+    },
+    "nav": {
+      "casa": "The House",
+      "habitaciones": "Rooms",
+      "experiencia": "Photos/Videos",
+      "opiniones": "Reviews",
+      "reserva": "Booking",
+      "entorno": "Surroundings",
+      "contacto": "Contact"
+    },
+    "hero": {
+      "title": "Complete rural house for groups seeking peace and real rest.",
+      "subtitle": "Entrefrutales is a 19th-century house, restored and designed to be rented in full. Eight double bedrooms, cobblestone patio with barbecue, pool, 70 m² terrace, free fibre optic WiFi and covered private parking, 15 km from the Piedra Monastery.",
+      "cta_primary": "Check availability",
+      "cta_secondary": "See the house",
+      "cta_call": "Call Charo"
+    },
+    "hero_card": {
+      "label": "Key details",
+      "rental_label": "Rental",
+      "rental_value": "Entire house",
+      "capacity_label": "Capacity",
+      "rooms": "6 double bedrooms",
+      "minstay_label": "Minimum stay",
+      "min_nights": "2 nights",
+      "extra_label": "Supplement",
+      "extra_value": "Extra bed €29/night",
+      "contact_label": "Contact"
+    },
+    "hero_facts": {
+      "century": "Restored three-storey house",
+      "monastery": "From Piedra Monastery",
+      "terrace": "Open-air terrace",
+      "wifi": "Fibre optic · coverage from all operators",
+      "pool_label": "Pool",
+      "pool": "15 Jun – 15 Sep",
+      "parking_label": "Parking",
+      "parking": "Covered, gated, free"
+    },
+    "casa": {
+      "kicker": "The House",
+      "title": "A historic house with tradition, comfort and real silence.",
+      "desc1": "Entrefrutales is a century-old stone-and-rammed-earth house with walls up to 80 cm thick, restored to blend authenticity with comfort. Rented as a whole for groups and families, designed for spacious and peaceful communal living.",
+      "desc2": "The ground floor has the reception, barbecue, kitchen, dining room, garden patio, pool and multi-purpose room. The first floor has six double bedrooms and the second floor has two bedrooms with 180×200 beds. There is a kitchen on each floor.",
+      "stat1": "Average score according to guests",
+      "stat2_label": "floors",
+      "stat2": "",
+      "stat3_label": "Covered barbecue",
+      "stat3": "",
+      "stat4_label": "adults",
+      "stat4": "",
+      "award_label": "Quality Recognition",
+      "award_text": "Entrefrutales, with <strong>Superior Category</strong> (equivalent to 4 Espigas) is the rural guesthouse with the most accolades and the best ratings in the province of Zaragoza."
+    },
+    "recognitions": {
+      "kicker": "Awards",
+      "title": "Awards and recognitions",
+      "lead": "Entrefrutales is one of the most awarded and best-rated rural guesthouses in the province of Zaragoza.",
+      "r1_title": "Rural Quality Award",
+      "r1_desc": "The Government of Aragón and the European Agricultural Fund for Rural Development (EAFRD) granted us the Rural Quality award for our quality merits, with a diploma and a plaque displayed at our front door.",
+      "r2_title": "Tourism Quality Distinction",
+      "r2_desc": "The Comarca de Calatayud granted us the Tourism Quality distinction.",
+      "r3_title": "One of the 12 best rural houses in Aragón",
+      "r3_desc": "Espiga Digital magazine (2014) chose us as one of the 12 best rural houses in Aragón.",
+      "r3_link": "Read the article ↗"
+    },
+    "rooms": {
+      "heading": "Eight bedrooms of a complete house.",
+      "note_full": "The house is rented as a whole, not by room. All have a full bathroom, hair dryer, heating, air conditioning and TV. Extra beds for children aged 2-11 available for €29/night and free cots on request.",
+      "tag_suite": "Suite",
+      "tag_double": "Double room",
+      "meta_lounge": "Lounge area",
+      "meta_bath": "Full bathroom",
+      "meta_ac": "Air conditioning",
+      "meta_dryer": "Hair dryer",
+      "meta_bed135": "135 cm bed",
+      "manzano_desc": "Suite with 180×200 bed, heating, air conditioning, lounge area and full bathroom.",
+      "vid_desc": "Room with 180×200 bed, heating, air conditioning and full bathroom.",
+      "cerezo_desc": "Room with 135 cm bed, heating, air conditioning and full bathroom.",
+      "melocoton_desc": "Room with 2 × 90×200 beds, heating, air conditioning and full bathroom.",
+      "cereal_desc": "Suite with 180×200 bed, heating, air conditioning, lounge area and full bathroom.",
+      "almendro_desc": "Room with 135 cm bed, heating, air conditioning and full bathroom.",
+      "sandia_desc": "Room with 2 × 90×200 beds, heating, air conditioning and full bathroom.",
+      "higuera_desc": "Room with 2 × 90×200 beds, heating, air conditioning and full bathroom."
+    },
+    "experiences": {
+      "kicker": "Photos/Videos",
+      "heading": "Common areas designed to share, rest and enjoy as a group.",
+      "lead": "Entrefrutales stands out for its shared spaces: cobblestone patio with natural plants, large barbecue, outdoor terrace, spacious living room, spacious dining room, multi-purpose room and summer pool. Everything designed for several days together in real comfort."
+    },
+    "feature": {
+      "terrace": {
+        "title": "Terrace and clear skies",
+        "desc": "An open-air terrace of about 70 m², ideal for long dinners, after-dinner chats and stargazing with no light pollution."
+      },
+      "bbq": {
+        "title": "Covered barbecue and patio",
+        "desc": "The spacious cobblestone patio and large barbecue let you enjoy outdoor cooking in a very authentic rural atmosphere."
+      },
+      "piscina": {
+        "title": "Summer pool",
+        "desc": "The pool is open from 15 June to 15 September. Dimensions: 4.3 × 2.3 × 0.55 m. Perfect for the warm months with family or groups."
+      },
+      "wifi": {
+        "title": "WiFi and parking",
+        "desc": "Fibre optic WiFi with coverage from all operators and covered, gated parking."
+      }
+    },
+    "gallery": {
+      "more": "View all photos (44)"
+    },
+    "video": {
+      "kicker": "Virtual tour",
+      "title": "Walk through the house before you arrive.",
+      "desc": "A video walk through the rooms, patio, pool and surroundings so you already feel at home when you get there.",
+      "watch": "Watch on YouTube"
+    },
+    "testimonials": {
+      "kicker": "Reviews",
+      "heading": "What those who have already rested here say.",
+      "lead": "A house with very high ratings for sleep quality, service and location. The silence, space and direct contact with Charo are the most valued aspects.",
+      "score_label": "Average score",
+      "bar_sleep": "Sleep quality",
+      "bar_clean": "Cleanliness",
+      "bar_location": "Location",
+      "bar_value": "Value for money",
+      "bar_service": "Service and care",
+      "t1_text": "\"We went as a family and it really felt like having the whole house to ourselves: comfortable rooms, a spectacular patio and loads of space to spend time together.\"",
+      "t1_origin": "Family getaway · Zaragoza",
+      "t2_text": "\"The best part was the peace and quiet. The location for visiting the Piedra Monastery is perfect and the house is very practical for spending several days.\"",
+      "t2_origin": "Area tourism · Madrid",
+      "t3_text": "\"The combination of pool, terrace, barbecue and spacious rooms makes the house work really well for large groups. We will definitely come back.\"",
+      "t3_name": "Group of friends",
+      "t3_origin": "Rural weekend · Valencia"
+    },
+    "reservation": {
+      "kicker": "Booking",
+      "heading": "Clear conditions and a simple process.",
+      "lead": "Full house with 8 bedrooms, minimum 2 nights. Capacity for up to 16 adults with extra beds for children aged 2-11.",
+      "p1_badge": "Getaway",
+      "p1_title": "Base stay",
+      "p1_price": "2 nights",
+      "p1_f1": "Full rental of the house",
+      "p1_f2": "Ideal for weekends",
+      "p1_f3": "Direct enquiry by phone or email",
+      "p1_cta": "Enquire",
+      "p2_badge": "Most popular",
+      "p2_title": "Full group",
+      "p2_price": "8 doubles",
+      "p2_f1": "House designed for large groups",
+      "p2_f2": "Pool, patio, barbecue and terrace",
+      "p2_f3": "Free parking and WiFi included",
+      "p2_f4": "Free cot on request",
+      "p2_cta": "Book now",
+      "p3_badge": "Enquiry",
+      "p3_title": "Up to 16 people",
+      "p3_price": "Custom",
+      "p3_f1": "Check availability and price",
+      "p3_f2": "Extra beds for children aged 2-11",
+      "p3_f3": "Free cots on request",
+      "p3_cta": "Send message",
+      "full_house": {
+        "title": "Minimum 6 rooms",
+        "desc": "Entrefrutales is rented as a whole and not by room. This improves privacy and makes your stay more comfortable for groups."
+      },
+      "min_nights": {
+        "title": "Minimum 2 nights",
+        "desc": "The minimum stay is two nights, making it ideal for long weekends, bank holidays and getaways."
+      },
+      "capacity": {
+        "title": "Up to 16 people",
+        "desc": "The house can accommodate up to 16 people with extra beds for children aged 2-11. Check availability and price before confirming."
+      }
+    },
+    "contact": {
+      "kicker": "Direct contact",
+      "title": "Any questions? Send us a WhatsApp message.",
+      "desc": "Phone +34 636 86 67 87 · entrefrutales2008@gmail.com · C/ Mesón 30, 50219 La Vilueña, Zaragoza.",
+      "cta_whatsapp": "Send message"
+    },
+    "location": {
+      "kicker": "Location",
+      "title": "La Vilueña, Zaragoza",
+      "address_label": "Address:",
+      "address": "C/ Mesón 30, 50219 La Vilueña, Zaragoza",
+      "surroundings_label": "Surroundings:",
+      "surroundings": "Piedra Monastery 15 km · Calatayud 12 km",
+      "access_label": "Access:",
+      "access": "Well signposted from the A-2 highway"
+    },
+    "entorno": {
+      "kicker": "The surroundings",
+      "title": "Things to do nearby",
+      "lead": "When you stay at Entrefrutales you can enjoy nature, sport, culture and gastronomy just a few kilometres from the house.",
+      "act_title": "Activities",
+      "act_1": "Hiking along the trails leading to the hermitages of San Juan and San Antón.",
+      "act_2": "Other routes and the chance to pick wild mushrooms (rebollones) in the local pine forests, when autumn is rainy and mild.",
+      "act_3": "Golf just 10 km away, at the Calatayud course (Augusta Golf Calatayud).",
+      "act_4": "Canoeing on the La Tranquera reservoir, 7 km from La Vilueña.",
+      "act_5": "Spa therapy with thermal circuits of healing waters in Alhama de Aragón, Jaraba and Paracuellos de Jiloca.",
+      "act_6": "The Mudéjar Route in Calatayud and its surroundings, plus many other artistic, gastronomic and wine routes.",
+      "act_7": "Buying seasonal fruit at grower's prices. Cherries are harvested from late May to late July, with many varieties of excellent quality and flavour.",
+      "act_8": "Climbing in Jaraba and Embid de la Ribera, about 15 km away.",
+      "poi_title": "Places of interest",
+      "poi_1": "The Stone Monastery (Monasterio de Piedra, 15 km): a must-see karst monument carved by the waters of the Piedra River. It's best to buy tickets online in advance (cheaper and no queues). The park, part of Aragón's network of Protected Spaces, hides lakes, grottoes and waterfalls such as the Mirror Lake or the impressive 50 m Cola del Caballo.",
+      "poi_2": "The Mudéjar Route in Calatayud and its region.",
+      "poi_3": "Wine Route in the Calatayud region: <a href=\"https://rutadelvinocalatayud.com\" target=\"_blank\" rel=\"noopener\">rutadelvinocalatayud.com</a>",
+      "poi_4": "The Bílbilis archaeological site in Calatayud (12 km) and other monuments of the purest Mudéjar art.",
+      "poi_5": "The La Tranquera reservoir, 12 km away.",
+      "poi_6": "Gallocanta Lagoon (40 km): watch the migrating cranes between mid-November and early December.",
+      "poi_7": "Daroca and the Dinópolis theme park (Teruel). Albarracín Aventura with zip lines, paintball and archery.",
+      "poi_8": "Zaragoza (100 km), with the Basílica del Pilar and La Seo.",
+      "poi_9": "Tarazona, El Moncayo, Borja and the Monastery of Veruela (90 km).",
+      "poi_10": "Soria and the Laguna Negra (100 km)."
+    },
+    "contact_info": {
+      "kicker": "Contact information",
+      "title": "Information and bookings",
+      "phone": "Phone",
+      "whatsapp": "WhatsApp",
+      "email": "Email",
+      "person": "Contact person",
+      "charo": "Charo",
+      "wa_cta": "Message on WhatsApp"
+    },
+    "footer": {
+      "description": "Complete rural house in La Vilueña, Zaragoza. 8 double rooms, spacious common areas, free fibre-optic WiFi with coverage from all carriers, and private covered, gated parking.",
+      "nav_title": "Navigation",
+      "contact_title": "Contact",
+      "legal_title": "Legal",
+      "legal_notice": "Legal notice",
+      "privacy": "Privacy policy",
+      "cookies": "Cookie policy",
+      "registry_label": "Tourism registry",
+      "copy": "© 2026 Entrefrutales · Complete rural house · Minimum 2 nights · La Vilueña, Zaragoza"
+    },
+    "cookies": {
+      "desc": "This website uses first-party and third-party cookies to improve your browsing experience. By continuing to browse you accept their use. You can consult our <a href=\"#\">cookie policy</a>.",
+      "only_necessary": "Only necessary",
+      "accept_all": "Accept all"
+    }
+  }
+}
