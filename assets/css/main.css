@@ -913,7 +913,8 @@ p {
   text-wrap: balance;
 }
 
-.calidad-caption strong {
+.calidad-caption strong,
+#reconocimientos .lead strong {
   color: var(--gold-2);
   font-weight: 700;
 }
