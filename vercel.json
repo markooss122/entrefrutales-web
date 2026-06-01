@@ -1,4 +1,5 @@
 {
   "buildCommand": "echo 'Building...' && exit 0",
-  "outputDirectory": "."
+  "outputDirectory": ".",
+  "cacheMaxAge": 0
 }
