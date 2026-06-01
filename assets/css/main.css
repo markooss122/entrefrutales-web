@@ -894,6 +894,13 @@ p {
 .calidad-badge {
   width: 100%;
   object-fit: contain;
+  mix-blend-mode: multiply;
+  animation: badgePulse 3s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+  0%, 100% { filter: drop-shadow(0 4px 12px rgba(200, 151, 42, 0.15)); }
+  50%      { filter: drop-shadow(0 4px 28px rgba(200, 151, 42, 0.40)); }
 }
 
 .calidad-caption {
@@ -966,9 +973,13 @@ p {
 
 .rooms-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 22px;
 }
+
+.rooms-grid .room-card { grid-column: span 2; }
+.rooms-grid .room-card:nth-last-child(2) { grid-column: 2 / 4; }
+.rooms-grid .room-card:nth-last-child(1) { grid-column: 4 / 6; }
 
 .room-card {
   background: var(--surface-strong);
@@ -1352,10 +1363,9 @@ p {
   border-radius: 999px;
   background: rgba(24, 16, 10, 0.52);
   color: var(--white);
-  font-size: 0.7rem;
-  font-weight: 900;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   backdrop-filter: blur(10px);
   font-family: -apple-system, sans-serif;
 }
@@ -2113,7 +2123,11 @@ p {
   .hero-facts { grid-template-columns: repeat(3, 1fr); }
   .hero-facts li:nth-child(-n+3) { border-bottom: 1px solid rgba(47,33,22,.08); }
   .hero-facts li:nth-child(3) { border-right: 0; }
-  .rooms-grid, .testimonials-grid, .pricing-grid { grid-template-columns: repeat(2, 1fr); }
+  .rooms-grid { grid-template-columns: repeat(4, 1fr); }
+  .rooms-grid .room-card { grid-column: span 2; }
+  .rooms-grid .room-card:nth-last-child(2) { grid-column: 1 / 3; }
+  .rooms-grid .room-card:nth-last-child(1) { grid-column: 3 / 5; }
+  .testimonials-grid, .pricing-grid { grid-template-columns: repeat(2, 1fr); }
   .features-grid { grid-template-columns: repeat(2, 1fr); }
   .conditions { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(3, 1fr); }
@@ -2135,6 +2149,9 @@ p {
   .hero-facts li:nth-last-child(-n+2) { border-bottom: 0; }
 
   .rooms-grid, .features-grid, .gallery-grid, .testimonials-grid, .pricing-grid, .entorno-grid { grid-template-columns: 1fr; }
+  .rooms-grid .room-card,
+  .rooms-grid .room-card:nth-last-child(2),
+  .rooms-grid .room-card:nth-last-child(1) { grid-column: auto; }
   .price-card.featured { transform: scale(1); }
   .section { padding: 86px 0; }
   .panel, .location-card, .contact-card { padding: 22px; }
